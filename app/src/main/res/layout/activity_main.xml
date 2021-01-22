@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#97BFC5"
+    android:backgroundTint="#5F90B6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!-- que counter section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/ContatoreDomande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#88E68C"
+            android:text="1/10"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <!-- timer section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Left"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/Timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="12"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <!-- que section  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:backgroundTint="#82D8E3">
+
+        <TextView
+            android:id="@+id/Dom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1F4A50"
+            android:text=" #1 Domanda"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <!-- option section  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="605dp"
+        android:layout_margin="4dp"
+        android:background="#B2E0E6"
+        android:backgroundTint="#80E6F3"
+        android:orientation="vertical">
+
+        <!-- op1 -->
+        <Button
+            android:id="@+id/btOpt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#B4E6B5"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 1"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+        <!-- op2 -->
+        <Button
+            android:id="@+id/btOpt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#A7E8AA"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 2"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <!-- op3 -->
+        <Button
+            android:id="@+id/btOpt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#B5E1B6"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 3"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <!--  op4-->
+        <Button
+            android:id="@+id/btOpt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#B4F1B6"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 4
+"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+</LinearLayout>
